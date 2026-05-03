@@ -1,0 +1,20 @@
+{
+  "name": "dota-monitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring Dota 2 news and patches",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
